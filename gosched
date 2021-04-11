@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2021-04-11T11:42:34.615Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="og_nNzMX7uBB5ubgCnrw" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-11T12:44:09.661Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="rWglERUdbbRYi0EZWjdD" version="14.1.9" type="github">
   <diagram id="NZdjmz4AMrHheEMVmlq7" name="Page-1">
-    <mxGraphModel dx="3724" dy="1877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1649" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xosOQsIVlQp1Qv36nMPp-67" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;opacity=30;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2950" y="280" width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="xosOQsIVlQp1Qv36nMPp-69" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;opacity=30;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="3270" y="280" width="780" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="xosOQsIVlQp1Qv36nMPp-49" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;opacity=30;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2470" y="111" width="620" height="140" as="geometry" />
+        </mxCell>
         <mxCell id="xosOQsIVlQp1Qv36nMPp-39" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;opacity=30;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1510" y="111" width="940" height="139" as="geometry" />
         </mxCell>
@@ -115,11 +124,86 @@
         <mxCell id="xosOQsIVlQp1Qv36nMPp-35" value="execute" style="whiteSpace=wrap;html=1;rounded=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="2160" y="120" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="xosOQsIVlQp1Qv36nMPp-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="xosOQsIVlQp1Qv36nMPp-37" target="xosOQsIVlQp1Qv36nMPp-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="xosOQsIVlQp1Qv36nMPp-37" value="gogo" style="whiteSpace=wrap;html=1;rounded=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="2320" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xosOQsIVlQp1Qv36nMPp-40" value="启动调度：1.每个M(线程)的调度都从mstart方法开始&amp;nbsp; &amp;nbsp; 2.初始化g0栈空间&amp;nbsp; &amp;nbsp; 3.m.procid字段记录线程ID&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 4.获取可运行g(本地队列，全局队列，findrunnable)&amp;nbsp; &amp;nbsp; 5.绑定m和g，修改g状态为运行中&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 6.gogo运行g对应的方法" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;opacity=30;" vertex="1" parent="1">
           <mxGeometry x="1520" y="190" width="920" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xosOQsIVlQp1Qv36nMPp-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="xosOQsIVlQp1Qv36nMPp-41" target="xosOQsIVlQp1Qv36nMPp-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xosOQsIVlQp1Qv36nMPp-41" value="runtime.main" style="whiteSpace=wrap;html=1;rounded=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="2481" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xosOQsIVlQp1Qv36nMPp-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="xosOQsIVlQp1Qv36nMPp-43" target="xosOQsIVlQp1Qv36nMPp-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xosOQsIVlQp1Qv36nMPp-43" value="allocm" style="whiteSpace=wrap;html=1;rounded=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="2640" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xosOQsIVlQp1Qv36nMPp-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="xosOQsIVlQp1Qv36nMPp-45" target="xosOQsIVlQp1Qv36nMPp-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xosOQsIVlQp1Qv36nMPp-45" value="newm&lt;br&gt;newm1" style="whiteSpace=wrap;html=1;rounded=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="2800" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xosOQsIVlQp1Qv36nMPp-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;dashed=1;" edge="1" parent="1" source="xosOQsIVlQp1Qv36nMPp-47" target="xosOQsIVlQp1Qv36nMPp-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xosOQsIVlQp1Qv36nMPp-47" value="newosproc" style="whiteSpace=wrap;html=1;rounded=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="2960" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xosOQsIVlQp1Qv36nMPp-50" value="创建系统监控进程：1.创建m结构，初始化mstartfn&amp;nbsp; &amp;nbsp; 2.创建gsignal,g0&amp;nbsp; &amp;nbsp; 3.新m插入全局链表allm&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;4.通过系统clone方法创建新线程" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;opacity=30;" vertex="1" parent="1">
+          <mxGeometry x="2481" y="190" width="599" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xosOQsIVlQp1Qv36nMPp-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=12;" edge="1" parent="1" source="xosOQsIVlQp1Qv36nMPp-53" target="xosOQsIVlQp1Qv36nMPp-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xosOQsIVlQp1Qv36nMPp-53" value="mstart&lt;br&gt;mstar1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;opacity=30;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2960" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xosOQsIVlQp1Qv36nMPp-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=18;" edge="1" parent="1" source="xosOQsIVlQp1Qv36nMPp-55" target="xosOQsIVlQp1Qv36nMPp-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xosOQsIVlQp1Qv36nMPp-55" value="minit" style="whiteSpace=wrap;html=1;rounded=1;align=center;opacity=30;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="3120" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xosOQsIVlQp1Qv36nMPp-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=18;" edge="1" parent="1" source="xosOQsIVlQp1Qv36nMPp-57" target="xosOQsIVlQp1Qv36nMPp-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xosOQsIVlQp1Qv36nMPp-57" value="sysmon" style="whiteSpace=wrap;html=1;rounded=1;fontSize=18;opacity=30;" vertex="1" parent="1">
+          <mxGeometry x="3280" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xosOQsIVlQp1Qv36nMPp-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=18;" edge="1" parent="1" source="xosOQsIVlQp1Qv36nMPp-59" target="xosOQsIVlQp1Qv36nMPp-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xosOQsIVlQp1Qv36nMPp-59" value="checkdead" style="whiteSpace=wrap;html=1;rounded=1;fontSize=18;opacity=30;" vertex="1" parent="1">
+          <mxGeometry x="3440" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xosOQsIVlQp1Qv36nMPp-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=18;" edge="1" parent="1" source="xosOQsIVlQp1Qv36nMPp-61" target="xosOQsIVlQp1Qv36nMPp-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xosOQsIVlQp1Qv36nMPp-61" value="netpoll" style="whiteSpace=wrap;html=1;rounded=1;fontSize=18;opacity=30;" vertex="1" parent="1">
+          <mxGeometry x="3600.5" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xosOQsIVlQp1Qv36nMPp-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=18;" edge="1" parent="1" source="xosOQsIVlQp1Qv36nMPp-63" target="xosOQsIVlQp1Qv36nMPp-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xosOQsIVlQp1Qv36nMPp-63" value="retake" style="whiteSpace=wrap;html=1;rounded=1;fontSize=18;opacity=30;" vertex="1" parent="1">
+          <mxGeometry x="3760" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xosOQsIVlQp1Qv36nMPp-65" value="gcTrigger" style="whiteSpace=wrap;html=1;rounded=1;fontSize=18;opacity=30;" vertex="1" parent="1">
+          <mxGeometry x="3920" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xosOQsIVlQp1Qv36nMPp-68" value="初始化新M" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;opacity=30;" vertex="1" parent="1">
+          <mxGeometry x="2960" y="360" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xosOQsIVlQp1Qv36nMPp-70" value="系统监控：1.监控进程一直处于for循环中运行，最初间隔10us，1ms后每次间隔加倍，最后稳定在10ms&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 2.checkdead：死锁检查，只运行一次&amp;nbsp; &amp;nbsp; 3.netpoll:检测是否存在就绪的IO事件，循环调用&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 4.协作抢占处于系统调用或运行时间过长(&amp;gt;10ms)的g，循环调用&amp;nbsp; &amp;nbsp; 5.检测是否需要强制GC，循环调用" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;opacity=30;" vertex="1" parent="1">
+          <mxGeometry x="3280" y="360" width="760" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
