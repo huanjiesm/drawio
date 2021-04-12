@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-04-12T14:24:54.198Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="o-Ay5uWhLH6kdqjg4xdl" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-12T14:35:02.044Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="voSWus4L2ciHtCuSFU24" version="14.1.9" type="github">
   <diagram id="NZdjmz4AMrHheEMVmlq7" name="Page-1">
-    <mxGraphModel dx="2621" dy="1140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1575" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="M9y3nKO99x30t0IgU6r3-95" value="" style="rounded=0;whiteSpace=wrap;html=1;opacity=30;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="7700" y="720" width="460" height="140" as="geometry" />
+        </mxCell>
         <mxCell id="M9y3nKO99x30t0IgU6r3-87" value="" style="rounded=0;whiteSpace=wrap;html=1;opacity=30;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="10710" y="500" width="460" height="140" as="geometry" />
         </mxCell>
@@ -586,6 +589,9 @@
         <mxCell id="xosOQsIVlQp1Qv36nMPp-209" value="dropg" style="whiteSpace=wrap;html=1;rounded=1;fontSize=18;opacity=30;" parent="1" vertex="1">
           <mxGeometry x="7390" y="730" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="M9y3nKO99x30t0IgU6r3-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;opacity=50;" edge="1" parent="1" source="xosOQsIVlQp1Qv36nMPp-211" target="M9y3nKO99x30t0IgU6r3-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="xosOQsIVlQp1Qv36nMPp-211" value="schedule" style="whiteSpace=wrap;html=1;rounded=1;fontSize=18;opacity=30;" parent="1" vertex="1">
           <mxGeometry x="7550" y="730" width="120" height="60" as="geometry" />
         </mxCell>
@@ -837,6 +843,24 @@
         </mxCell>
         <mxCell id="M9y3nKO99x30t0IgU6r3-88" value="1. 停止m运行，放入m空闲队列中&lt;br&gt;2. m休眠，等待被唤醒" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;opacity=30;" vertex="1" parent="1">
           <mxGeometry x="10720" y="570" width="440" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="M9y3nKO99x30t0IgU6r3-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;opacity=50;" edge="1" parent="1" source="M9y3nKO99x30t0IgU6r3-89" target="M9y3nKO99x30t0IgU6r3-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M9y3nKO99x30t0IgU6r3-89" value="runqget" style="whiteSpace=wrap;html=1;rounded=1;fontSize=18;opacity=30;" vertex="1" parent="1">
+          <mxGeometry x="7710" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M9y3nKO99x30t0IgU6r3-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;opacity=50;" edge="1" parent="1" source="M9y3nKO99x30t0IgU6r3-91" target="M9y3nKO99x30t0IgU6r3-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M9y3nKO99x30t0IgU6r3-91" value="findrunnable" style="whiteSpace=wrap;html=1;rounded=1;fontSize=18;opacity=30;" vertex="1" parent="1">
+          <mxGeometry x="7870" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M9y3nKO99x30t0IgU6r3-93" value="runqsteal" style="whiteSpace=wrap;html=1;rounded=1;fontSize=18;opacity=30;" vertex="1" parent="1">
+          <mxGeometry x="8030" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M9y3nKO99x30t0IgU6r3-96" value="1.偷取到一个g(bgsweep)，调度执行" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;opacity=30;" vertex="1" parent="1">
+          <mxGeometry x="7710" y="799" width="440" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
