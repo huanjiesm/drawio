@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-13T15:40:38.879Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="U4DUPyHqgUnk_GPKvj_9" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-13T15:47:05.261Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="Qam5xco6zlwf1dguF3Xu" version="14.1.9" type="github">
   <diagram id="NZdjmz4AMrHheEMVmlq7" name="Page-1">
-    <mxGraphModel dx="6627" dy="4180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2567" dy="1254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1337,6 +1337,24 @@
         </mxCell>
         <mxCell id="t47WWcPOW18K1IzAag6V-73" value="sysmon线程会一直尝试抢占" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;dashed=1;opacity=30;" vertex="1" parent="1">
           <mxGeometry x="12440" y="360" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="t47WWcPOW18K1IzAag6V-74" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;dashed=1;fillColor=#0050ef;strokeColor=#001DBC;opacity=50;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-140" y="865" as="sourcePoint" />
+            <mxPoint x="20" y="865" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t47WWcPOW18K1IzAag6V-75" value="p0关联m运行" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;opacity=30;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="830" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t47WWcPOW18K1IzAag6V-76" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;dashed=1;fillColor=#60a917;strokeColor=#2D7600;opacity=50;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-141" y="945" as="sourcePoint" />
+            <mxPoint x="19" y="945" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t47WWcPOW18K1IzAag6V-77" value="p1关联m运行" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;opacity=30;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="910" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
