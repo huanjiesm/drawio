@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-14T15:06:22.488Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="kAlpWX2DXjJECPFF0QzP" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-14T15:07:25.129Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="sOSA6YbYrz_XPene8Osq" version="14.1.9" type="github">
   <diagram id="NZdjmz4AMrHheEMVmlq7" name="Page-1">
     <mxGraphModel dx="1808" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1066,7 +1066,7 @@
         <mxCell id="M9y3nKO99x30t0IgU6r3-131" value="notesleep" style="whiteSpace=wrap;html=1;rounded=1;fontSize=18;opacity=40;" parent="1" vertex="1">
           <mxGeometry x="10430" y="730" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M9y3nKO99x30t0IgU6r3-134" value="开启新的调度，在本地获取到g0（runnext）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;opacity=30;" parent="1" vertex="1">
+        <mxCell id="M9y3nKO99x30t0IgU6r3-134" value="开启新的调度，在本地获取到g1（runnext）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;opacity=30;" parent="1" vertex="1">
           <mxGeometry x="9310" y="799" width="280" height="51" as="geometry" />
         </mxCell>
         <mxCell id="M9y3nKO99x30t0IgU6r3-136" value="1. 检测到当前g已经锁定m执行&lt;br&gt;2. 释放资源p&lt;br&gt;3. 唤醒g绑定的m" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;opacity=30;" parent="1" vertex="1">
